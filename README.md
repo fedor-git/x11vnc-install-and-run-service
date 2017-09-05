@@ -1,4 +1,4 @@
-# x11vnc-install-and-run-service
+sudo ./vnc_install.sh# x11vnc-install-and-run-service
 Install x11vnc which run at system startup
 
 Service start automatically after script finishes
@@ -9,8 +9,7 @@ You can change password PASSWD and name of service - SYSCTRL
 
 If you don't like standard vnc port you could change PORT
 
-To run file you need to change file be executable:
-chmod +x vnc_install.sh
-
-and run it with sudo user:
+Install:
+git clone https://github.com/fedorHub/x11vnc-install-and-run-service.git </br>
+cd x11vnc-install-and-run-service/
 sudo ./vnc_install.sh
