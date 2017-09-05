@@ -10,7 +10,7 @@ SYSCTRL='/lib/systemd/system/x11vnc.service'
 PASSWD='123456'
 PORT='5900'
 
-apt-get -f remove vino
+apt-get -f -y remove vino
 apt-get install x11vnc -y && x11vnc -storepasswd $PASSWD /etc/x11vnc.pass && touch $SYSCTRL
 apt-get -f -y install
 
