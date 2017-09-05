@@ -1,4 +1,3 @@
-sudo ./vnc_install.sh# x11vnc-install-and-run-service
 Install x11vnc which run at system startup
 
 Service start automatically after script finishes
@@ -11,5 +10,5 @@ If you don't like standard vnc port you could change PORT
 
 Install:
 git clone https://github.com/fedorHub/x11vnc-install-and-run-service.git </br>
-cd x11vnc-install-and-run-service/
-sudo ./vnc_install.sh
+cd x11vnc-install-and-run-service/ </br>
+sudo ./vnc_install.sh </br>
